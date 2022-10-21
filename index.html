@@ -5,21 +5,123 @@
 <link href="CSS.css" type="text/css" rel="stylesheet">
 <link rel="sortcut icon" href="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Figura-de-Estrela-PNG.png" type="image/gif" />
 <meta name="author" content="santos.12164@hotmail.com">
-<meta name="description" content="DESCRIÇÃO SOBRE O SITE🔴">
-<meta name="keywords" content="tang🔴, tang🔴, tang🔴">
+<meta name="description" content="BUSCA POR MUSICAS">
+<meta name="keywords" content="BUSCA POR MUSICAS">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head><body><center>
+</head><body><center><body bgcolor="#01DF01"> </body>
 <!-------------------------------------------------------------->
 <!-------------------------------------------------------------->
 <!-------------------------------------------------------------->
 <!DOCTYPE html><html><title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css"><body>
-<div class="w3-container w3-card"><h1>Phone App</h1></div></body><hr/>
+<div class="w3-container w3-card"><h1>BUSCA POR MUSICAS</h1></div></body><hr/><h2>BEM VINDO</h2>
 <!-------------------------------------------------------------->
 <!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #01DF01;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #01DF01;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+#myUL li a:hover:not(.header) {
+  background-color: #FFFF00;
+}
+</style>
+</head>
+<body>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="PESQUISA AQUI.." title="BUSCA AQUI">
+<ul id="myUL">
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<li><a href="MUSICA/
+ADELINO NASCIMENTO
+.html" target="_blank">
+ADELINO NASCIMENTO
+<mark>
+BREGA🔴
+</mark></a></li>
+<!-------------------------------------------------------------->
+<li><a href="MUSICA/
+NOME🔴
+.html" target="_blank">
+NOME🔴
+<mark>
+BREGA🔴
+</mark></a></li>
+<!-------------------------------------------------------------->
+<li><a href="MUSICA/
+NOME🔴
+.html" target="_blank">
+NOME🔴
+<mark>
+BREGA🔴
+</mark></a></li>
 <!-------------------------------------------------------------->
 
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+</ul>
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script></body></html>
 <!-------------------------------------------------------------->
 <!-------------------------------------------------------------->
 <!-------------------------------------------------------------->
